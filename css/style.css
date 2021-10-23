@@ -539,13 +539,13 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
 }
 .sotial-link:hover, .sotial-link:focus{
-  background-color: (var(--accent-color));
+  background-color: var(--accent-color);
 }
 .sotial-icon{
    fill: currentColor;
 }
 .sotial-link:hover, .sotial-link:focus{
-  fill: (var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .social-list{
