@@ -498,8 +498,8 @@ border-radius: 0px 0px 4px 4px;
   height: 600px;
   border-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      rgba(47, 48, 58, 0.1),
+      rgba(47, 48, 58, 0.1)
     ),
     url(../images/overlay.jpeg);
   background-repeat: no-repeat;
@@ -542,7 +542,7 @@ border-radius: 0px 0px 4px 4px;
   background-color: (var(--accent-color));
 }
 .sotial-icon{
-  fill: #ffffff;
+   fill: currentColor;
 }
 .sotial-link:hover, .sotial-link:focus{
   fill: (var(--accent-color);
@@ -552,13 +552,14 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   justify-content: center;
 }
-.team-sotial{
+.team-sotial {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .customers-list{
 display: flex;
-  justify-content: center;
-}
+justify-content: center;
 }
 .customers-item{
   border-color: rgba(47, 48, 58, 0.4);
@@ -578,5 +579,5 @@ display: flex;
   justify-content: center;
 }
 .costomers-icon{
-  fill: #757575;
+   fill: currentColor;}
 }
