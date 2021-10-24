@@ -560,7 +560,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .sotial-link{
   color: rgba(175, 177, 184, 1);
-
   width: 100%;
   height: 100%;
   background:var(--main-bg-color);
@@ -573,13 +572,20 @@ border-radius: 0px 0px 4px 4px;
   background-color: var(--accent-color);
 }
 .sotial-icon{
-  height: 20px;
-  fill:currentColor;
+fill:currentColor;
 }
 .sotial-link:hover, .sotial-link:focus{
   fill: var(--accent-color);
 }
 .sotial-link{
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-bg-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(175, 177, 184, 1);
   padding-top: 10px;
 }
 
@@ -593,14 +599,14 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 30px;
 }
 .customers-list{
-  list-style: none;
+list-style: none;
 display: flex;
 justify-content: center;
 }
 .customers-item{
   align-items: center;
   border-color: rgba(47, 48, 58, 0.4);
-   border: 1px solid #afb1b8;
+  border: 1px solid #afb1b8;
   border-style: solid;
   width: 170px;
   height: 92px;
@@ -616,6 +622,7 @@ justify-content: center;
   width: 170px;
   height: 92px;
   display: flex;
+  color: var(--main-text-color);
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -624,7 +631,7 @@ justify-content: center;
   margin-right: 10px;
 }
 .costomers-icon{
-   fill:rgba(175, 177, 184, 1);
+   fill:currentColor;
 }
 .customers-link :hover,.costomers-icon:focus{
   background-color: var(--accent-color);
@@ -641,22 +648,26 @@ margin-right: 10px;
 }
 .join-link{
 display: flex;
-border: 1px solid #afb1b8;
-align-items: center;
 justify-content: center;
-border-radius: 4px;
+
 }
 .join-list{
  display: flex;
  justify-content: center;
 }
 .join-icon{
-fill: rgba(175, 177, 184, 1);
+fill: currentColor;
 }
 .join-icon:hover, .join-link:focus{
   background-color: var(--accent-color);
 }
 .join-icon{
+height: 44px;
+background-color: rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
 display: flex;
 border: 1px solid #afb1b8;
 align-items: center;
@@ -664,19 +675,18 @@ justify-content: center;
 border-radius: 4px;
 }
 .join-icon{
-background-color: rgba(255, 255, 255, 0.1);
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
+fill: currentColor;
 }
-.sotial-link:hover, .sotial-link:focus{
+.join-link:hover, .join-link:focus{
 background-color: var(--accent-color);
 color: #ffffff ;
 }
-.social-link{
+.join-link{
   fill: currentColor;
 }
+.join-link{
+  color: rgba(175, 177, 184, 1);
+  border-radius: 50%;
 }
 
 .join-p{
