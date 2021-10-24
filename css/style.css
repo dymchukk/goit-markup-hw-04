@@ -150,15 +150,11 @@ address {
 .contacts-link-top:hover{
 color: var(--accent-color);
 }
-.contacts-link-top::before{
+.contacts-link-top{
   width: 16px;
   height: 12px;
-  content: "";
   display: block;
   margin-left:10px;
-  background-image: url(../images/envelope.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   display: inline-flex;
   justify-content:start;
 
@@ -183,13 +179,10 @@ color: var(--accent-color);
 .contacts-tel-top:hover{
   color: var(--accent-color);
 }
-.contacts-tel-top::before{
+.contacts-tel-top{
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url(../images/phone.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   display: inline-flex;
 
 }
@@ -250,30 +243,22 @@ color: var(--accent-color);
   line-height: 1.7;
   color: var(--main-title-color);
 }
-.features-title::before{
-  content: "";
-  display: block;
+.features-title{
+  display: inline-block;
   height: 120px;
-  background-size:contain;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color:rgba(245, 244, 250, 1);
   margin-bottom: 30px;
 ;
 }
-.icon-nth::before{
-  background-image: url(../images/vector\ .svg);
-}
-.icon-clock::before{
-  background-image: url(../images/vector\ \(1\).svg);
-  
-}
-.icon-tv::before{
-  background-image: url(../images/comp.svg);
+.icon-nth{
 
 }
-.icon-spase::before{
-  background-image: url(../images/astronaut\ .svg);
+.icon-clock{}
+
+.icon-tv{
+}
+.icon-spase{
+
 }
 .features-item {
   display: inline-block;
@@ -542,10 +527,15 @@ border-radius: 0px 0px 4px 4px;
   background-color: var(--accent-color);
 }
 .sotial-icon{
-   fill: currentColor;
+  height: 20px;
+  fill: rgba(175, 177, 184, 1);
+;
 }
 .sotial-link:hover, .sotial-link:focus{
   fill: var(--accent-color);
+}
+.sotial-link{
+  padding-top: 10px;
 }
 
 .social-list{
@@ -562,12 +552,17 @@ display: flex;
 justify-content: center;
 }
 .customers-item{
+  align-items: center;
   border-color: rgba(47, 48, 58, 0.4);
   border-style: solid;
-  width: 40px;
-  height: 52px;
+  width: 170px;
+  height: 92px;
   margin-right: 10px;
 
+}
+.customers-link{
+  fill: var(--main-text-color);
+}
 }
 .customers-link{
   width: 100%;
@@ -579,5 +574,6 @@ justify-content: center;
   justify-content: center;
 }
 .costomers-icon{
-   fill: currentColor;}
+   fill:rgba(175, 177, 184, 1);
+;}
 }
