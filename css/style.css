@@ -47,6 +47,9 @@ li {
 address {
   font-style: normal;
 }
+h2{
+  color:var(--main-bg-color);
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -320,13 +323,14 @@ color: var(--accent-color);
 .works-item:not(:last-child) {
   margin-right: 30px;
 }
-.team {
-  
-  display: flex;
+.team {  
+display: flex;
 }
+
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .team-item {
   flex-basis: calc((100% - 90px) / 4);
   text-align: center;
@@ -485,12 +489,14 @@ border-radius: 0px 0px 4px 4px;
   align-items: center;
 }
 .project {
+  margin-bottom: 94px;
   margin-left: -30px;
   margin-top: -30px;
   display: flex;
   flex-wrap: wrap;
 }
 .project .project-item {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
@@ -502,12 +508,15 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .item * {
   outline: solid #757575;
 }
 .text {
+  margin-left: 24px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -633,9 +642,6 @@ justify-content: center;
 .costomers-icon{
    fill:currentColor;
 }
-.customers-link :hover,.costomers-icon:focus{
-  background-color: var(--accent-color);
-}
 .join{
   margin-left: 30px;
 }
@@ -701,7 +707,6 @@ color: #ffffff ;
 
 .join-p{
 margin-bottom: 20px;
-color: var(--text-bg-color);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
