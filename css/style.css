@@ -615,7 +615,6 @@ fill:currentColor;
   color: rgba(175, 177, 184, 1);
   padding-top: 10px;
 }
-.sotial-link:
 
 .social-list{
   display: flex;
@@ -696,17 +695,10 @@ fill: currentColor;
 .join-icon{
 width: 20px;
 height: 20px;
-
-}
-.join-icon{
-fill: currentColor;
 }
 .join-link:hover, .join-link:focus{
 background-color: var(--accent-color);
 color: #ffffff ;
-}
-.join-link{
-  fill: currentColor;
 }
 .join-link{
   color: rgba(175, 177, 184, 1);
