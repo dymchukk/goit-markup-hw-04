@@ -597,6 +597,8 @@ justify-self: center;
     
 }
 .sotial-icon{
+  justify-content: center;
+  align-content: center;
 fill:currentColor;
 }
 .sotial-link:hover, .sotial-link:focus{
@@ -687,15 +689,14 @@ align-items: center;
  display: flex;
 }
 .join-icon{
+width: 20px;
+height: 20px;
 fill: currentColor;
 }
 .join-icon:hover, .join-link:focus{
   background-color: var(--accent-color);
 }
-.join-icon{
-width: 20px;
-height: 20px;
-}
+
 .join-link:hover, .join-link:focus{
 background-color: var(--accent-color);
 color: #ffffff ;
