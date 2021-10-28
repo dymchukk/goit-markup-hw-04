@@ -141,6 +141,7 @@ display: flex;
 }
 .contacts-link {
   display: flex;
+  align-items: center;
   margin-left: auto;
   list-style: none;
   font-weight: 500;
@@ -219,8 +220,8 @@ color: var(--accent-color);
 }
 .contacts-item:not(:last-child){
   margin-right: 50px;}
+
 .header {
-  display: flex;
   border-bottom: 1px solid #ececec;
 }
 .contacts-icon{
@@ -253,7 +254,6 @@ color: var(--accent-color);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   color: #ffffff;
   margin-bottom: 30px;
   color: var(--main-bg-color);
@@ -274,11 +274,8 @@ color: var(--accent-color);
 }
 .features-title{
   display: inline-block;
-  height: 120px;
   line-height: 1.7;
   color: var(--main-title-color);
-  background-color:rgba(245, 244, 250, 1);
-  margin-bottom: 30px;
 }
 .features-item {
   display: inline-block;
@@ -579,7 +576,7 @@ justify-self: center;
 .customers-list{
   
 }
-.sotial-item:last-child{
+.sotial-item:not(:last-child){
    margin-right: 10px;
 }
 .sotial-link{
@@ -625,7 +622,8 @@ fill:currentColor;
 .team-sotial {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .customers-list{
 list-style: none;
@@ -670,7 +668,7 @@ box-sizing: border-box;
 width: 44px;
 height: 44px;
 }
-.join-item:last-child{
+.join-item:not(:last-child){
   margin-right: 10px;
 }
 
